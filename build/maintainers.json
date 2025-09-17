@@ -3177,6 +3177,9 @@
   "/google/fonts/:sort?": [
     "Fatpandac"
   ],
+  "/google/jules/changelog": [
+    "johan456789"
+  ],
   "/google/news/:category/:locale": [
     "zoenglinghou",
     "pseudoyu"
@@ -4815,6 +4818,9 @@
   ],
   "/lens/profile/:handle": [
     "DIYgod"
+  ],
+  "/letterboxd/:username/watchlist": [
+    "johan456789"
   ],
   "/lfsyd/home": [
     "auto-bot-ty"
@@ -6634,6 +6640,9 @@
   "/qweather/now/:location": [
     "Rein-Ou"
   ],
+  "/qwenlm/blog/:lang?": [
+    "Kjasn"
+  ],
   "/qztc/home/:type": [
     "iQNRen"
   ],
@@ -7732,6 +7741,9 @@
   "/telegram/blog": [
     "fengkx"
   ],
+  "/telegram/media/:entityName/:messageId": [
+    "synchrone"
+  ],
   "/telegram/channel/:username/:routeParams?": [
     "DIYgod",
     "Rongronggg9",
@@ -7740,6 +7752,9 @@
   ],
   "/telegram/stickerpack/:name": [
     "DIYgod"
+  ],
+  "/telegram/stories/:username/:story?": [
+    "synchrone"
   ],
   "/tencent/cloud/developer/column/:categoryId?": [
     "lyling"
