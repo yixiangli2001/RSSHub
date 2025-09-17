@@ -332,6 +332,9 @@
   "/acg17/post/all": [
     "SunBK201"
   ],
+  "/acgvinyl/news": [
+    "williamgateszhao"
+  ],
   "/acpaa/:id?/:name?": [
     "nczitzk"
   ],
@@ -2917,8 +2920,8 @@
   ],
   "/gamme/:domain/:category?": [],
   "/gamme/:domain/tag/:tag": [],
-  "/ganjingworld/channel/:id": [],
   "/ganjingworld/channel/articles/:id": [],
+  "/ganjingworld/channel/:id": [],
   "/ganjingworld/channel/posts/:id": [],
   "/ganjingworld/channel/shorts/:id": [],
   "/gaoyu/blog": [
@@ -3351,7 +3354,8 @@
     "TonyRL"
   ],
   "/gov/mot/:category{.+}?": [
-    "ladeng07"
+    "ladeng07",
+    "nczitzk"
   ],
   "/gov/ndrc/fggz/:category{.+}?": [
     "nczitzk"
@@ -3960,10 +3964,12 @@
     "nczitzk"
   ],
   "/hupu/dept/:category?": [
-    "nczitzk"
+    "nczitzk",
+    "hyoban"
   ],
   "/hupu/:category?": [
-    "nczitzk"
+    "nczitzk",
+    "hyoban"
   ],
   "/hust/gs/:category{.+}?": [
     "nczitzk"
@@ -4396,6 +4402,9 @@
   "/javtrailers/studios/:studio": [
     "TonyRL"
   ],
+  "/jbma/report/:filter{.+}?": [
+    "nczitzk"
+  ],
   "/jd/price/:id": [
     "nczitzk"
   ],
@@ -4564,6 +4573,9 @@
   ],
   "/jsu/notice": [
     "wenjia03"
+  ],
+  "/juejin/aicoding/:tag?/:sort?": [
+    "TonyRL"
   ],
   "/juejin/books": [
     "xyqfer"
@@ -5360,8 +5372,14 @@
   "/mysql/release/:version?": [
     "nczitzk"
   ],
+  "/nankai/ai/:type?": [
+    "LMark"
+  ],
   "/nankai/cc/:type?": [
     "vicguo0724"
+  ],
+  "/nankai/graduate/:type?": [
+    "ladeng07"
   ],
   "/nankai/jwc": [
     "vicguo0724"
@@ -6762,6 +6780,9 @@
   "/samd/news/:typeId": [
     "hualiong"
   ],
+  "/samrdprc/:id{.+}?": [
+    "nczitzk"
+  ],
   "/samrdprc/news/:type1/:type2": [
     "a180285"
   ],
@@ -6897,6 +6918,27 @@
   ],
   "/scvtc/xygg": [
     "nczitzk"
+  ],
+  "/sdo/ff14risingstones/posts/:pid?/:type?": [
+    "KarasuShin"
+  ],
+  "/sdo/ff14risingstones/strats/:pid?/:type?": [
+    "KarasuShin"
+  ],
+  "/sdo/ff14risingstones/timeline": [
+    "KarasuShin"
+  ],
+  "/sdo/ff14risingstones/user-dynamics/:uid": [
+    "KarasuShin"
+  ],
+  "/sdo/ff14risingstones/user-posts/:uid": [
+    "KarasuShin"
+  ],
+  "/sdo/ff14risingstones/user-resently/:uid": [
+    "KarasuShin"
+  ],
+  "/sdo/ff14risingstones/user-strats/:uid": [
+    "KarasuShin"
   ],
   "/sdu/cmse/:type?": [
     "Ji4n1ng"
@@ -7590,7 +7632,7 @@
   "/szse/rule/:channel{.+}?": [
     "nczitzk"
   ],
-  "/szse/disclosure/listed/notice": [
+  "/szse/disclosure/listed/notice/:query?": [
     "nczitzk"
   ],
   "/szu/yz/:type?": [
@@ -8102,7 +8144,7 @@
   "/u9a9/search/:keyword/:preview?": [
     "TonyRL"
   ],
-  "/uber/blog/:maxPage?": [
+  "/uber/blog/:compat?": [
     "hulb"
   ],
   "/ucas/ai": [
@@ -8710,9 +8752,6 @@
     "lengthmin",
     "jjeejj",
     "prnake"
-  ],
-  "/xinhuanet/app": [
-    "nczitzk"
   ],
   "/xinpianchang/discover/:params?": [
     "nczitzk"
