@@ -2920,8 +2920,8 @@
   ],
   "/gamme/:domain/:category?": [],
   "/gamme/:domain/tag/:tag": [],
-  "/ganjingworld/channel/articles/:id": [],
   "/ganjingworld/channel/:id": [],
+  "/ganjingworld/channel/articles/:id": [],
   "/ganjingworld/channel/posts/:id": [],
   "/ganjingworld/channel/shorts/:id": [],
   "/gaoyu/blog": [
