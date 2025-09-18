@@ -15592,15 +15592,15 @@
     "_name": "Ganjing World",
     ".": [
       {
-        "title": "Articles in a channel on Ganjing World",
+        "title": "Articles in a channel",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
           "/"
         ],
-        "target": "/ganjingworld/:lang?/news/:articleId*"
+        "target": "/ganjingworld/:lang?/channel/:id?tab=articles*"
       },
       {
-        "title": "posts in a channel on Ganjing World",
+        "title": "posts in a channel",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
           "/"
@@ -15608,7 +15608,7 @@
         "target": "/ganjingworld/:lang?/channel/:id?tab=posts*"
       },
       {
-        "title": "Shorts in a channel on Ganjing World",
+        "title": "Shorts in a channel",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
           "/"
@@ -15616,7 +15616,7 @@
         "target": "/ganjingworld/:lang?/channel/:id?tab=shorts*"
       },
       {
-        "title": "Videos in a channel on Ganjing World",
+        "title": "Videos in a channel",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
           "/"
