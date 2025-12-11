@@ -371,6 +371,7 @@ export type RoutePath =
   | `/bmkg/earthquake`
   | `/bmkg/news`
   | `/bnext/`
+  | `/bntnews/:category?`
   | `/bnu/bs/:category?`
   | `/bnu/dwxgb/:category/:type`
   | `/bnu/fdy/:path{.+}?`
@@ -727,6 +728,7 @@ export type RoutePath =
   | `/dgtle/article/:id?/:pushed?`
   | `/dgtle/feed`
   | `/dgtle/news/:id?`
+  | `/dgtle/tag/:id`
   | `/dgtle/video`
   | `/dgut/jwb/:type?`
   | `/dhu/jiaowu/news/:type?`
@@ -1384,6 +1386,7 @@ export type RoutePath =
   | `/huggingface/blog-community/:sort?`
   | `/huggingface/blog-zh`
   | `/huggingface/daily-papers/:cycle?/:voteFliter?`
+  | `/huggingface/models/:group`
   | `/huijin-inv/news`
   | `/hunanpea/rsks/:guid`
   | `/hunau/gfxy/:category?/:page?`
@@ -1396,6 +1399,7 @@ export type RoutePath =
   | `/hupu/bbs/:id?/:order?`
   | `/hupu/bxj/:id?/:order?`
   | `/hupu/dept/:category?`
+  | `/hupu/news/:team`
   | `/hust/aia/news`
   | `/hust/aia/notice/:type?`
   | `/hust/auto/news`
@@ -2056,6 +2060,7 @@ export type RoutePath =
   | `/oeeee/app/reporter/:id`
   | `/oeeee/web/:channel`
   | `/oesw*`
+  | `/oevw/:json?`
   | `/oilchem/:type?/:category?/:subCategory?`
   | `/okx/:section?`
   | `/olevod/vod/:id`
@@ -2570,6 +2575,7 @@ export type RoutePath =
   | `/substack/subscribe/:user`
   | `/supchina/`
   | `/supchina/podcasts`
+  | `/supercell/:game/blog/:locale?`
   | `/surfshark/blog/:category{.+}?`
   | `/sustainabilitymag/articles`
   | `/sustech/bidding`

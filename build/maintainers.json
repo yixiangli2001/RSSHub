@@ -1127,6 +1127,9 @@
   "/bnext/": [
     "johan456789"
   ],
+  "/bntnews/:category?": [
+    "iamsnn"
+  ],
   "/bnu/bs/:category?": [
     "nczitzk"
   ],
@@ -2183,6 +2186,9 @@
     "nczitzk"
   ],
   "/dgtle/news/:id?": [
+    "nczitzk"
+  ],
+  "/dgtle/tag/:id": [
     "nczitzk"
   ],
   "/dgtle/video": [
@@ -4215,6 +4221,9 @@
     "zeyugao",
     "ovo-tim"
   ],
+  "/huggingface/models/:group": [
+    "WuNein"
+  ],
   "/huijin-inv/news": [
     "la3rence"
   ],
@@ -4247,6 +4256,9 @@
   ],
   "/hupu/:category?": [
     "nczitzk",
+    "hyoban"
+  ],
+  "/hupu/news/:team": [
     "hyoban"
   ],
   "/hust/gs/:category{.+}?": [
@@ -6275,6 +6287,9 @@
   "/oesw*": [
     "sk22"
   ],
+  "/oevw/:json?": [
+    "sk22"
+  ],
   "/oilchem/:type?/:category?/:subCategory?": [
     "nczitzk"
   ],
@@ -7871,6 +7886,9 @@
   ],
   "/supchina/podcasts": [
     "nczitzk"
+  ],
+  "/supercell/:game/blog/:locale?": [
+    "fishyo"
   ],
   "/surfshark/blog/:category{.+}?": [
     "nczitzk"
