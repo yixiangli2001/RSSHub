@@ -17197,7 +17197,7 @@
         "source": [
           "/"
         ],
-        "target": "/ganjingworld/:lang?/channel/:id?tab=articles*"
+        "target": "/ganjingworld/channel/articles/:id"
       },
       {
         "title": "posts in a channel",
@@ -17205,7 +17205,7 @@
         "source": [
           "/"
         ],
-        "target": "/ganjingworld/:lang?/channel/:id?tab=posts*"
+        "target": "/ganjingworld/channel/posts/:id"
       },
       {
         "title": "Shorts in a channel",
@@ -17213,7 +17213,7 @@
         "source": [
           "/"
         ],
-        "target": "/ganjingworld/:lang?/channel/:id?tab=shorts*"
+        "target": "/ganjingworld/channel/shorts/:id"
       },
       {
         "title": "Videos in a channel",
@@ -17221,7 +17221,7 @@
         "source": [
           "/"
         ],
-        "target": "/ganjingworld/:lang?/channel/:id*"
+        "target": "/ganjingworld/channel/videos/:id"
       }
     ]
   },
