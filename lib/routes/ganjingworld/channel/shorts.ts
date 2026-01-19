@@ -58,7 +58,6 @@ async function handler(ctx) {
             description,
             enclosure_url: videoUrl,
             enclosure_type: videoUrl ? 'application/x-mpegURL' : undefined,
-            
         };
     });
     return {
