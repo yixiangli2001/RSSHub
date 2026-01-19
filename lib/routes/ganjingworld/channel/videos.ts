@@ -47,8 +47,8 @@ async function handler(ctx) {
         const posterUrl = item.poster_url || item.image_auto_url || '';
 
         let description = item.description || '';
-        if (videoUrl) {
-            description = `<video controls src="${videoUrl}" poster="${posterUrl}" style="max-width: 100%;"></video><br/>${description}`;
+        if (posterUrl) {
+            description = `<img src="${posterUrl}" style="max-width: 100%;" /><br/>${description}`;
         }
 
         return {
@@ -56,6 +56,8 @@ async function handler(ctx) {
             link: `https://www.ganjingworld.com/video/${item.id}`,
             pubDate,
             description,
+            enclosure_url: videoUrl,
+            enclosure_type: videoUrl ? 'application/x-mpegURL' : undefined,
         };
     });
 
